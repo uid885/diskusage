@@ -1,10 +1,8 @@
 #!/bin/bash
-#################################################
 # Author:     Christo Deale                  
 # Date  :     2023-08-16           
-# diskusage:  Utility to review Disk Space Avail 
-#             & Usage Locations            
-#################################################
+# diskusage:  Utility to review Disk Space Avail & Usage Locations            
+
 # Run the 'df -h' command and filter the output to show only /dev/mapper/*
 df_output=$(df -h | awk '/\/dev\/mapper\//')
 
